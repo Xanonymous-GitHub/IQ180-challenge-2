@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="1.1.0.8" name="IQ180大挑戰2.exe" publicKeyToken="a5330ccc93fc68a4" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="iq2.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="IQ180大挑戰2" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="IQ180大挑戰2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC 資訊清單選項
+            如果您要變更 Windows 使用者帳戶控制層級，請將 
+            requestedExecutionLevel 節點取代為下列其中一項。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            指定 requestedExecutionLevel 節點會停用檔案和登錄虛擬化。
+            如果您要針對回溯相容性使用檔案及登錄虛擬化，
+            請刪除 requestedExecutionLevel 節點。
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IQ180大挑戰2.exe" size="2027008">
+      <assemblyIdentity name="IQ180大挑戰2" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>aj2npD47aw9GtjQK2sN7Rpzoovs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="iq2.ico" size="122860">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>qQ+ILMQimLxNBK2vMdKiJxZn+go=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- 可配合此應用程式使用的所有 Windows 版本的清單。Windows 會自動選取最相容的環境。-->
+      <!-- 如果您的應用程式是設計成配合 Windows 7 運作，請取消註解下列 supportedOS 節點-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=YOUR-73B2A10CFA\葡萄樹屋" issuerKeyHash="f87481d360dfa5f919416ccf0834428dc8c7722f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Vh6DsWNZWrlcLzxHVa9SM7dZ5ug=</DigestValue></Reference></SignedInfo><SignatureValue>jk4THXRKPSVluUx0Q3B14lu9MBHeEnEEtkDpiGBkTAHHO/qz5eHQY2MrzllX4PQR4JY2Qwey01emNZUSULWJ0wPR1Ku1VKK2tfAWcO0q7IU7Yp/1qFZwgFvqE1+Vpj4sv9weHNPv0WYXAo0gWr/PPYqblIqPpjTjccwDKtbql3Q=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wacc5sVQOGqEARqJ4KQjAZnozt3fyibojkMbFO0DOASekDHYTsjexNPOymixnj3qhBkyqncM9IwkVAPDMl2lSVoZAggZ8ay1y6GU1atak5iJ5LuWZ5ml+DlWl6Y+92Y3q9qPi9fF69JqIGs/be+F6Q6S1Tqoha6O3I8Lc6sLUVs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e8e659b73352af55473c2f5cb95a5963b1831e56" Description="" Url=""><as:assemblyIdentity version="1.1.0.8" name="IQ180大挑戰2.exe" publicKeyToken="a5330ccc93fc68a4" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=YOUR-73B2A10CFA\葡萄樹屋</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>nmiVnVz5nD5nEH/shqq1FQAN+NY=</DigestValue></Reference></SignedInfo><SignatureValue>jspOs1CwmaBQTl1SfuZv1PuJFH76LJWjWeNje2RKDNw9oLjuLbqmTJsx6QkPiCf+dZjs2EuEpgAL1h+/KUGBSzu9ExrrrAP2Cnlr1pnD33B3RBbiqQpY756nJV3NiVdI9mpuZW/cQwIAoNG9RPd2TBQ2uJdJlVSquuiiBeAV5c0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wacc5sVQOGqEARqJ4KQjAZnozt3fyibojkMbFO0DOASekDHYTsjexNPOymixnj3qhBkyqncM9IwkVAPDMl2lSVoZAggZ8ay1y6GU1atak5iJ5LuWZ5ml+DlWl6Y+92Y3q9qPi9fF69JqIGs/be+F6Q6S1Tqoha6O3I8Lc6sLUVs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAU6gAwIBAgIQNPDPUctNjbRPkRaL00VUdjAJBgUrDgMCHQUAMDMxMTAvBgNVBAMeKABZAE8AVQBSAC0ANwAzAEIAMgBBADEAMABDAEYAQQBchGGEBGo5XEswHhcNMTUwMjA5MDczOTQxWhcNMTYwMjA5MTMzOTQxWjAzMTEwLwYDVQQDHigAWQBPAFUAUgAtADcAMwBCADIAQQAxADAAQwBGAEEAXIRhhARqOVxLMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBpxzmxVA4aoQBGongpCMBmejO3d/KJuiOQxsU7QM4BJ6QMdhOyN7E087KaLGePeqEGTKqdwz0jCRUA8MyXaVJWhkCCBnxrLXLoZTVq1qTmInku5ZnmaX4OVaXpj73Zjer2o+L18Xr0mogaz9t74XpDpLVOqiFro7cjwtzqwtRWwIDAQABMAkGBSsOAwIdBQADgYEAh9yIrwQCXIPaKReGRPfrXuxDNLRaOImiXQm16gVtgPpB/w9um6K3Q4cKIvlGE7w02GutGSiWoYMMVDcRRhCNRBNNwAna2ZPxv53QQa4dPVCKMJgWMWsWH+7LS0togdyuDHvKObBSc1z1lZWTfy4TDdM7uISDnjPPb+E5hjgK9oQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
