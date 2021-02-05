@@ -10,6 +10,8 @@ Copyright (C) 2015 Xanonymous
 </p>
 
 ## 下載來玩ㄛ
+練習題庫取得碼：DWEUIKIGBTHFVEULOYHESCLPOMBERXHJOI
+
 https://github.com/Xanonymous-GitHub/IQ180-challenge-2/raw/main/IQ180_2_安裝程式.exe
 
 ## 說明
